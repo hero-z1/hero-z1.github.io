@@ -35,7 +35,7 @@
 
   
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 <body>
   <div id="container" q-class="show:isCtnShow">
@@ -165,6 +165,114 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-ie" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/10/ie/">解决IE浏览器 option display:none 隐藏无效的问题</a>
+    </h1>
+  
+
+        
+        <a href="/2020/05/10/ie/" class="archive-article-date">
+  	<time datetime="2020-05-10T07:54:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>前段时间碰到一个问题就是,select下面的option选项用hide()方法隐藏时在ie浏览器下不生效.开启F12看到option 样式里已经存在display:none的设置了,真是见了鬼了.下面分享一下解决问题的过程.</p>
+<h2 id="度娘搜解决方案"><a href="#度娘搜解决方案" class="headerlink" title="度娘搜解决方案"></a>度娘搜解决方案</h2><p>看到网上的解决方案.整体思路是option设置display无效就使用其他标签进行包裹,然后设置display:none即可.下面参考一下两个文章和其中一个demo演示一下.</p>
+<h3 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h3><p>这是一个联动的下拉框,根据下拉框1的选项来显示下拉框2中选项的显示.</p>
+        
+          <a class="article-more-a" href="/2020/05/10/ie/#more">阅读更多 >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color3">置顶</a>
+        </div>
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">css</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">jquery</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">javascript</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      <span id="busuanzi_container_page_pv">  本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/05/10/ie/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+<script type="text/javascript">
+document.addEventListener("copy",function(e){
+    //取消默认事件，才能修改复制的值
+    e.preventDefault();
+    //复制的内容
+    var copyTxt = `${window.getSelection(0).toString()}
+          \n作者：人生苦短唯有自渡
+          \n链接：${window.location.href}
+          \n著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。`
+    if(e.clipboardData) {
+            e.clipboardData.setData('text/plain',  copyTxt);
+    }
+        else if(window.clipboardData){
+          return window.clipboardData.setData("text", copyTxt);
+        }
+  })
+</script>
   
     <article id="post-我的第一个博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -401,6 +509,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">javascript</a>
               </li>
             
             <div class="clearfix"></div>
